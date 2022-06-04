@@ -1,0 +1,117 @@
+body{
+    background-color: #CC0633;
+}
+
+main{
+    background-color: white;
+    padding:5px;
+    border-radius: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-inline-start: 10px;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #A6192E;
+    
+}
+
+.main{
+    display:grid;
+    grid-template-columns: 400px 400px ;
+}
+
+#grid{
+    border-radius: 5px;
+    padding-inline-start: 10px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin: 10px;
+    background-color: #d2e1e69e ;
+    
+}
+
+.lowerbound{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:1;
+    grid-row-end:5;
+}
+
+#grade{
+    padding-left: 25px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.bound{
+    text-align: center;
+    padding:  5px 5px;
+    width: 100px;
+    margin: 0px 135px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-size: 14px;
+
+    position: relative;
+    top: -25px;
+}
+
+.histogram{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+
+.bins{
+    padding-left: 25px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 5px;
+}
+
+.hist{
+    position: relative;
+    top:-5px;
+    padding-left: 70px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 5px;
+}
+
+.newgrade{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end:5;
+    
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    
+}
+
+.newentry{
+  padding: 10px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+    background-color: #A6192E;
+    border-color: #7A1024;
+    border-radius: 5px;
+    border-style: none none solid;
+    border-width: medium medium 3px;
+    color: #FFFFFF;
+    font-family: "DINWebMedium",sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 1em 0 10px;
+    padding: 0.25em 1em;
+}
