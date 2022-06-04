@@ -48,7 +48,7 @@ function displayHistogram(dict) {
         var temp = ''
         const c = dict[letterGrade[i]];  
         for (let k = 0; k < c; k++){ 
-            temp = temp + '';
+            temp = temp + '*';
         }
         document.getElementsByName(letterGrade[i])[0].innerHTML = temp;
     }
